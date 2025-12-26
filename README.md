@@ -2,6 +2,15 @@
 
 A modular, collaborative AI system where specialized agents work together to research topics, analyze information, and generate structured summaries. This system demonstrates modern agent orchestration patterns using crewAI for agent management and a custom message bus for inter-agent communication.
 
+### Execution Steps 
+
+
+python -m venv venv
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+uvicorn main:app --reload
 
 ## Workflow 
 
